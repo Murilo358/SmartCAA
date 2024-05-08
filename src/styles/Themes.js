@@ -47,6 +47,23 @@ export const darkPalette = {
     800: "#d8dadc",
     900: "#d2d4d4",
   },
+  primary: {
+    100: "#e0e0e0",
+    200: "#c2c2c2",
+    300: "#a3a3a3",
+    400: "#858585",
+    500: "#666666",
+    600: "#525252",
+    700: "#3d3d3d",
+    800: "#292929",
+    900: "#141414",
+  },
+  background: {
+    100: "#38434f",
+    200: "#222a31",
+    300: "#192024",
+    400: "#111518",
+  },
 };
 
 export const lightPalette = {
@@ -94,6 +111,24 @@ export const lightPalette = {
     800: "#EAEDB0",
     900: "#E9EDA8",
   },
+  primary: {
+    100: "#141414",
+    200: "#292929",
+    300: "#3d3d3d",
+    400: "#525252",
+    500: "#666666",
+    600: "#858585",
+    700: "#a3a3a3",
+    800: "#c2c2c2",
+    900: "#e0e0e0",
+  },
+  background: {
+    100: "#ffffff",
+    200: "#f9f9f9",
+    300: "#F6F5F2",
+    400: "#dedede",
+    500: "#b1d6a5",
+  },
 };
 
 export const tokens = (mode) => ({
@@ -123,7 +158,7 @@ export const themeSettings = (mode) => {
               light: colors.whiteAccent[100],
             },
             background: {
-              default: colors.greenAccent[400],
+              default: colors.background[300],
             },
           }
         : {
@@ -140,7 +175,7 @@ export const themeSettings = (mode) => {
               light: colors.darkGreen[100],
             },
             background: {
-              default: colors.greenAccent[200],
+              default: colors.background[300],
             },
           }),
     },

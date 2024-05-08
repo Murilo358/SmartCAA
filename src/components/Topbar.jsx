@@ -28,9 +28,25 @@ const Topbar = () => {
   };
 
   return (
-    <Box className="flex justify-between p-2 shadow-md w-full">
-      <Box>
-        <img width="50px" height="30px" alt="Valeo-Logo" src="Valeo-logo.svg" />
+    <Box
+      sx={{ height: 70, background: colors.greenAccent[800] }}
+      className="flex justify-between p-2 shadow-lg w-full "
+    >
+      <Box className="flex items-center gap-3">
+        <img
+          width="100px"
+          height="50px"
+          alt="Valeo-Logo"
+          src="Valeo-logo.svg"
+        />
+        <Typography
+          pb={2}
+          sx={{ color: "#82e600" }}
+          fontWeight="bold"
+          variant="h2"
+        >
+          SmartCAA
+        </Typography>
       </Box>
       <Box display="flex">
         <IconButton onClick={colorMode.toggleColorMode}>
