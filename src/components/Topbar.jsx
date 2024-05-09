@@ -11,7 +11,6 @@ import { colorModeContext, tokens } from "../styles/Themes";
 import LightModeOutlined from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import Logo from "/logo.svg";
 import { useContext } from "react";
 import { useState } from "react";
 import { Image } from "@mui/icons-material";

@@ -63,7 +63,6 @@ const Project = () => {
   const [searchFilter, setSearchFilter] = useState("");
 
   const handleInputChange = (value) => {
-    console.log(value);
     setSearchFilter(value);
   };
 
